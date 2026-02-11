@@ -310,9 +310,9 @@
   
   /* widths for rows and containers
    */
-	--width-sixteen-cols: 1760px;
-	--width-default     : 1320px;
-	--width-wide        : 1600px;
+	--width-sixteen-cols: 1160px;
+	--width-default     : 820px;
+	--width-wide        : 900px;
 	--width-wider       : 1800px;
 	--width-narrow      : 1200px;
 	--width-narrower    : 1000px;
@@ -3631,7 +3631,7 @@ td:last-child {
 }
 
 .s-intro__content-title {
-	font-size    : clamp(5rem, 7vw, 11.6rem);
+	font-size    : clamp(4rem, 6vw, 9.6rem);
 	line-height  : 1;
 	margin-top   : 0;
 	margin-bottom: var(--vspace-1_25);
